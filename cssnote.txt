@@ -1,0 +1,60 @@
+
+
+                    CSS - Cascading style sheet
+                ------------------------------------
+
+            1. Applying CSS to HTML Elements
+                - Inline CSS: use style attribute
+                    - style="property:value;"
+                - Internal CSS: using style tag
+                    -   <style>
+                            selector{
+                                property:value;
+                            }
+                        </style>
+                - External CSS: using External css file, Better Approch
+                    - selector{
+                                property:value;
+                            }
+                    - link css file to HTML
+            2. Selectors
+                - Using Tag name: tag{property:value;}
+                - Using Id: #id{property:value;}
+                - Using class: .class-name{property:value;}
+                - Using universal selector : *{property:value;}
+                - Using Grouping selector : tag,tag{property:value;}
+                - CSS Combinator
+                    - Descendant selector (space)
+                    - Child Selector : (>)
+                    - Adjascent Sibling selector : (+)
+                    - General Sibling selector: (~)
+                - Selecting scrollbar: webkit-scrollbar
+            3. Box Model 
+            4. Float 
+            5. Flexbox: Layout items in either row /column wise
+                - set display as flex to the parent Elements
+                - flex-direction
+                    - row
+                    - row-reverse
+                    - column
+                    - column-reverse
+                - justify-content
+                - align-items
+                - flex warp
+            6. Position 
+                - relative
+                - absolute
+                - fixed
+                - sticky
+                - static
+            7. z-index
+            8. CSS Pseudo classes
+                - selector:Pseudo-class{
+                    property:value;
+                }
+            9. Grid
+            10. linear-gradient:  linear-gradient(direction, color-stop1, color-stop2, ...);
+            11. animation: name duration timing-function delay iteration-count direction fill-mode;
+                - @keyframes animationname {keyframes-selector {css-styles;}}
+            12. Media Queries : to responsive website
+        
